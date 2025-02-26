@@ -3,5 +3,5 @@ CREATE TABLE seguridad.revisiones (
     matricula VARCHAR(20) NOT NULL,
     fecha DATE NOT NULL,
     diagnostico TEXT,
-    FOREIGN KEY (matricula) REFERENCES transporte.autobuses(matricula)
+    CONSTRAINT fk_revisiones_autobuses FOREIGN KEY (matricula) REFERENCES transporte.autobuses(matricula) ON DELETE CASCADE
 );
