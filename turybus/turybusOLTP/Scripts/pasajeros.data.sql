@@ -1,14 +1,14 @@
 PRINT 'Populating pasajeros table';
 
 INSERT INTO seguridad.pasajeros (dni, nombre, telefono) VALUES
-('12345678A', 'Juan Pérez', '555-0101'),
-('23456789B', 'María López', '555-0102'),
-('34567890C', 'Carlos García', '555-0103'),
-('45678901D', 'Ana Fernández', '555-0104'),
-('56789012E', 'Luis Martínez', '555-0105'),
-('67890123F', 'Sofía Rodríguez', '555-0106'),
-('78901234G', 'Miguel Torres', '555-0107'),
-('89012345H', 'Laura Díaz', '555-0108'),
-('90123456I', 'Pedro Ramírez', '555-0109'),
-('01234567J', 'Andrea Gómez', '555-0110');
+('12345678A', 'Carlos Perez', '555-1010'),
+('87654321B', 'Maria Lopez', '555-2020'),
+('56789012C', 'Juan Gómez', '555-3030'),
+('34567890D', 'Ana Torres', '555-4040'),
+('98765432E', 'Luis Ramos', '555-5050'),
+('23456789F', 'Sofia Vargas', '555-6060'),
+('65432109G', 'Miguel Sanchez', '555-7070'),
+('78901234H', 'Lucia Fernandez', '555-8080'),
+('89012345I', 'Pablo Mendoza', '555-9090'),
+('90123456J', 'Elena Rojas', '555-1111');
 

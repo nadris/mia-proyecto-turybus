@@ -1,13 +1,13 @@
 PRINT 'Populating lugares_recorrido table';
 
 INSERT INTO transporte.lugares_recorrido (id_ruta_servicio, nombre, hora_llegada, actividad, tiempo_parada) VALUES
-(1, 'Parada 1', '06:30', 'Descanso', 10),
-(2, 'Parada 2', '08:00', 'Cambio de conductor', 15),
-(3, 'Parada 3', '09:30', 'Repostaje', 20),
-(4, 'Parada 4', '10:45', 'Revisión técnica', 30),
-(5, 'Parada 5', '12:15', 'Descanso', 10),
-(6, 'Parada 6', '13:45', 'Inspección', 15),
-(7, 'Parada 7', '15:30', 'Carga de pasajeros', 25),
-(8, 'Parada 8', '17:00', 'Limpieza', 20),
-(9, 'Parada 9', '18:30', 'Revisión técnica', 30),
-(10, 'Parada 10', '20:00', 'Finalización', 0);
+(1, 'Mirador Andino', '10:00', 'Fotografía', 30),
+(2, 'Playa Dorada', '11:00', 'Baño', 60),
+(3, 'Montaña Azul', '13:00', 'Senderismo', 90),
+(4, 'Museo Histórico', '12:30', 'Visita Guiada', 45),
+(5, 'Teatro Antiguo', '14:00', 'Espectáculo', 60),
+(6, 'Cascada del Jaguar', '15:30', 'Excursión', 75),
+(7, 'Viñedo del Valle', '16:00', 'Cata de vinos', 90),
+(8, 'Mercado Gastronómico', '17:00', 'Degustación', 60),
+(9, 'Taller Artesanal', '18:00', 'Demostración', 45),
+(10, 'Catedral Gótica', '19:00', 'Misa y turismo', 30);

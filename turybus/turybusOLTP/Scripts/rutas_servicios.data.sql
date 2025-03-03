@@ -1,13 +1,13 @@
 PRINT 'Populating rutas_servicios table';
 
 INSERT INTO transporte.rutas_servicios (nombre, importe, hora_salida, hora_llegada, dias_programados) VALUES
-('Ruta 1', 10.50, '06:00', '08:00', 'Lunes a Viernes'),
-('Ruta 2', 15.75, '07:30', '09:45', 'Todos los días'),
-('Ruta 3', 12.00, '09:00', '11:00', 'Lunes a Sábado'),
-('Ruta 4', 8.25, '10:30', '12:15', 'Domingo'),
-('Ruta 5', 18.90, '12:00', '14:30', 'Lunes a Viernes'),
-('Ruta 6', 9.50, '14:00', '16:00', 'Martes y Jueves'),
-('Ruta 7', 20.00, '16:30', '18:45', 'Todos los días'),
-('Ruta 8', 11.25, '18:00', '20:15', 'Lunes a Miércoles'),
-('Ruta 9', 14.60, '19:30', '21:45', 'Viernes y Sábado'),
-('Ruta 10', 7.80, '21:00', '23:00', 'Domingo');
+('Ruta Andina', 50.00, '08:00', '18:00', 'Lunes-Viernes'),
+('Ruta Costera', 70.00, '09:00', '17:30', 'Todos'),
+('Ruta Montañosa', 85.00, '07:30', '19:00', 'Sabado-Domingo'),
+('Ruta Histórica', 60.00, '10:00', '16:00', 'Miercoles-Viernes'),
+('Ruta Cultural', 45.00, '11:00', '15:00', 'Martes-Jueves'),
+('Ruta Selvática', 90.00, '06:00', '20:00', 'Todos'),
+('Ruta Vinícola', 75.00, '12:00', '18:30', 'Viernes-Domingo'),
+('Ruta Gastronómica', 55.00, '13:00', '19:30', 'Todos'),
+('Ruta Artesanal', 40.00, '14:00', '17:00', 'Martes-Sabado'),
+('Ruta Religiosa', 50.00, '15:00', '20:00', 'Domingo');
