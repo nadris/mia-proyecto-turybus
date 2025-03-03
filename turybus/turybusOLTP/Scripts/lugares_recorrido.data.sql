@@ -1,7 +1,4 @@
 PRINT 'Populating lugares_recorrido table';
-SET NOCOUNT ON;
-
-SET IDENTITY_INSERT transporte.lugares_recorrido ON;
 
 INSERT INTO transporte.lugares_recorrido (id_ruta_servicio, nombre, hora_llegada, actividad, tiempo_parada) VALUES
 (1, 'Parada 1', '06:30', 'Descanso', 10),
@@ -14,5 +11,3 @@ INSERT INTO transporte.lugares_recorrido (id_ruta_servicio, nombre, hora_llegada
 (8, 'Parada 8', '17:00', 'Limpieza', 20),
 (9, 'Parada 9', '18:30', 'Revisión técnica', 30),
 (10, 'Parada 10', '20:00', 'Finalización', 0);
-
-SET IDENTITY_INSERT transporte.lugares_recorrido OFF;

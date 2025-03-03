@@ -1,7 +1,5 @@
 PRINT 'Populating billetes table';
-SET NOCOUNT ON;
 
-SET IDENTITY_INSERT transporte.billetes ON;
 
 
 INSERT INTO transporte.billetes (dni_pasajero, id_ruta_servicio, fecha, importe) VALUES
@@ -16,4 +14,3 @@ INSERT INTO transporte.billetes (dni_pasajero, id_ruta_servicio, fecha, importe)
 ('90123456I', 9, '2024-03-09', 14.60),
 ('01234567J', 10, '2024-03-10', 7.80);
 
-SET IDENTITY_INSERT transporte.billetes OFF;

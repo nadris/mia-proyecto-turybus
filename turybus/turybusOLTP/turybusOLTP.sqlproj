@@ -81,6 +81,7 @@
     <None Include="Scripts\revisiones_reparaciones.data.sql" />
     <None Include="Scripts\rutas_servicios.data.sql" />
     <None Include="Scripts\autobuses_conductores.data.sql" />
+    <None Include="Scripts\all.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />

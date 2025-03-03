@@ -1,7 +1,5 @@
 PRINT 'Populating estadisticas_uso table';
-SET NOCOUNT ON;
 
-SET IDENTITY_INSERT transporte.estadisticas_uso ON;
 
 INSERT INTO transporte.estadisticas_uso (id_ruta_servicio, dni_pasajero, km_recorridos, horas_viaje) VALUES
 (1, '12345678A', 120.5, 2.0),
@@ -14,5 +12,3 @@ INSERT INTO transporte.estadisticas_uso (id_ruta_servicio, dni_pasajero, km_reco
 (8, '89012345H', 130.4, 2.2),
 (9, '90123456I', 170.9, 3.1),
 (10, '01234567J', 75.8, 1.3);
-
-SET IDENTITY_INSERT transporte.estadisticas_uso OFF;

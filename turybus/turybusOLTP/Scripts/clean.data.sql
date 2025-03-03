@@ -1,3 +1,4 @@
+PRINT 'Cleaning database';
 
 DELETE FROM transporte.estadisticas_uso;
 DELETE FROM transporte.revisiones_reparaciones;

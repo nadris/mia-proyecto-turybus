@@ -1,7 +1,4 @@
 PRINT 'Populating pasajeros table';
-SET NOCOUNT ON;
-
-SET IDENTITY_INSERT seguridad.pasajeros ON;
 
 INSERT INTO seguridad.pasajeros (dni, nombre, telefono) VALUES
 ('12345678A', 'Juan Pérez', '555-0101'),
@@ -15,4 +12,3 @@ INSERT INTO seguridad.pasajeros (dni, nombre, telefono) VALUES
 ('90123456I', 'Pedro Ramírez', '555-0109'),
 ('01234567J', 'Andrea Gómez', '555-0110');
 
-SET IDENTITY_INSERT seguridad.pasajeros OFF;
