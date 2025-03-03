@@ -9,24 +9,6 @@
        Ninguno
 
 ** Acciones del usuario
-     Crear
-       [seguridad] (Esquema)
-       [transporte] (Esquema)
-       [seguridad].[pasajeros] (Tabla)
-       [transporte].[rutas_servicios] (Tabla)
-       [transporte].[billetes] (Tabla)
-       [transporte].[lugares_recorrido] (Tabla)
-       [transporte].[autobuses_conductores] (Tabla)
-       [transporte].[revisiones_reparaciones] (Tabla)
-       [transporte].[estadisticas_uso] (Tabla)
-       [transporte].[fk_billetes_pasajeros] (Clave externa)
-       [transporte].[fk_billetes_rutas_servicios] (Clave externa)
-       [transporte].[fk_lugares_recorrido_rutas_servicios] (Clave externa)
-       [transporte].[fk_revisiones_reparaciones_autobuses] (Clave externa)
-       [transporte].[fk_estadisticas_uso_rutas_servicios] (Clave externa)
-       [transporte].[fk_estadisticas_uso_pasajeros] (Clave externa)
-       [transporte].[chk_importe] (Restricción CHECK)
-       [transporte].[chk_num_plazas] (Restricción CHECK)
 
 ** Acciones de compatibilidad
 
