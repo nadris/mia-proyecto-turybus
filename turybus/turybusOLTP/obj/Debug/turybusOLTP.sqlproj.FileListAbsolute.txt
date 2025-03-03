@@ -1,0 +1,6 @@
+D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\bin\Debug\turybusOLTP.dacpac
+D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\bin\Debug\turybusOLTP.dll
+D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\bin\Debug\turybusOLTP.pdb
+D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.sqlproj.AssemblyReference.cache
+D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.dll
+D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.pdb

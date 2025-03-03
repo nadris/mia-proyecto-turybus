@@ -1,7 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maricel\\Desktop\\apps\\mia-proyecto-turybus\\turybus\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Github\\mia-proyecto-turybus\\turybus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|turybusOLTP||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F777ADE-CA52-4350-9D9B-A00D75ADC747}|turybusOLTP\\turybusOLTP.sqlproj|D:\\Github\\mia-proyecto-turybus\\turybus\\turybusOLTP\\turybusOLTP.sqlproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|0032459b-05d4-453a-8918-372d533c7e42",
+      "RelativeMoniker": "D:0:0:{2F777ADE-CA52-4350-9D9B-A00D75ADC747}|turybusOLTP\\turybusOLTP.sqlproj|solutionrelative:turybusOLTP\\turybusOLTP.sqlproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|0032459b-05d4-453a-8918-372d533c7e42"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +17,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "turybusOLTP",
+              "DocumentMoniker": "D:\\Github\\mia-proyecto-turybus\\turybus\\turybusOLTP\\turybusOLTP.sqlproj",
+              "RelativeDocumentMoniker": "turybusOLTP\\turybusOLTP.sqlproj",
+              "ToolTip": "D:\\Github\\mia-proyecto-turybus\\turybus\\turybusOLTP\\turybusOLTP.sqlproj",
+              "RelativeToolTip": "turybusOLTP\\turybusOLTP.sqlproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-03T21:13:56.873Z",
+              "EditorCaption": ""
             }
           ]
         }
