@@ -64,5 +64,11 @@
     <Build Include="Schema\Security\Schema\transporte.sql" />
     <Build Include="Schema\Security\Schema\seguridad.sql" />
     <Build Include="Schema\Tables\rutas_servicios.sql" />
+    <Build Include="Schema\Tables\pasajeros.sql" />
+    <Build Include="Schema\Tables\billetes.sql" />
+    <Build Include="Schema\Tables\lugares_recorrido.sql" />
+    <Build Include="Schema\Tables\autobuses_conductores.sql" />
+    <Build Include="Schema\Tables\revisiones_reparaciones.sql" />
+    <Build Include="Schema\Tables\estadisticas_uso.sql" />
   </ItemGroup>
 </Project>
