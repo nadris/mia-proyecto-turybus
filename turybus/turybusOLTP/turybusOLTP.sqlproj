@@ -9,8 +9,7 @@
     <ProjectGuid>{2f777ade-ca52-4350-9d9b-a00d75adc747}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
-    <RootPath>
-    </RootPath>
+    <RootPath />
     <RootNamespace>turybusOLTP</RootNamespace>
     <AssemblyName>turybusOLTP</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
@@ -48,7 +47,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
-    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
     <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
     <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
   </PropertyGroup>
@@ -56,5 +54,15 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Schema" />
+    <Folder Include="Schema\Security" />
+    <Folder Include="Schema\Security\Schema" />
+    <Folder Include="Schema\Tables" />
+    <Folder Include="Schema\Programmability" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Schema\Security\Schema\transporte.sql" />
+    <Build Include="Schema\Security\Schema\seguridad.sql" />
+    <Build Include="Schema\Tables\rutas_servicios.sql" />
   </ItemGroup>
 </Project>
