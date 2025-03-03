@@ -14,3 +14,9 @@ D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\Model.xml
 D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\refactor.xml
 D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\postdeploy.sql
 D:\Github\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\predeploy.sql
+C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\bin\Debug\turybusOLTP.dacpac
+C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\bin\Debug\turybusOLTP.dll
+C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\bin\Debug\turybusOLTP.pdb
+C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.sqlproj.AssemblyReference.cache
+C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.dll
+C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.pdb

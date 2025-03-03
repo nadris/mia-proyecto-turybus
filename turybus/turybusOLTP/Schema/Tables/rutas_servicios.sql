@@ -1,4 +1,5 @@
-﻿create table transporte.rutas_servicios (
+﻿-- Tabla de Rutas y Servicios Diarios combinados
+create table transporte.rutas_servicios (
     id_ruta_servicio INT PRIMARY KEY IDENTITY(1,1),
     nombre NVARCHAR(255) NOT NULL,
     importe DECIMAL(10,2) NOT NULL,
