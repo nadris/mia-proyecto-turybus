@@ -1,4 +1,4 @@
-PRINT 'Populating autobuses_conductores table';
+﻿PRINT 'Populating autobuses_conductores table';
 SET NOCOUNT ON;
 
 SET IDENTITY_INSERT transporte.autobuses_conductores ON;

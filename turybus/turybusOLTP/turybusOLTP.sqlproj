@@ -59,6 +59,7 @@
     <Folder Include="Schema\Security\Schema" />
     <Folder Include="Schema\Tables" />
     <Folder Include="Schema\Programmability" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Security\Schema\transporte.sql" />
@@ -70,5 +71,18 @@
     <Build Include="Schema\Tables\autobuses_conductores.sql" />
     <Build Include="Schema\Tables\revisiones_reparaciones.sql" />
     <Build Include="Schema\Tables\estadisticas_uso.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\billetes.data.sql" />
+    <None Include="Scripts\clean.data.sql" />
+    <None Include="Scripts\estadisticas_uso.data.sql" />
+    <None Include="Scripts\lugares_recorrido.data.sql" />
+    <None Include="Scripts\pasajeros.data.sql" />
+    <None Include="Scripts\revisiones_reparaciones.data.sql" />
+    <None Include="Scripts\rutas_servicios.data.sql" />
+    <None Include="Scripts\autobuses_conductores.data.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
