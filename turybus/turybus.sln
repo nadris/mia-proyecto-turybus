@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "turybusOLTP", "turybusOLTP\turybusOLTP.sqlproj", "{2F777ADE-CA52-4350-9D9B-A00D75ADC747}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "turybusDW", "turybusDW\turybusDW.sqlproj", "{DA54CA6F-205E-4406-905F-2EFBB78839F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,12 @@ Global
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
