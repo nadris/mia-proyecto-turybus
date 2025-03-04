@@ -1,0 +1,26 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dwh] (Esquema)
+       [dwh].[dim_tiempo] (Tabla)
+       [dwh].[dim_rutas] (Tabla)
+       [dwh].[dim_pasajeros] (Tabla)
+       [dwh].[dim_autobuses] (Tabla)
+       [dwh].[dim_conductores] (Tabla)
+       [dwh].[hechos_viajes] (Tabla)
+       [dwh].[fk_hechos_pasajeros] (Clave externa)
+       [dwh].[fk_hechos_rutas] (Clave externa)
+       [dwh].[fk_hechos_tiempo] (Clave externa)
+       [dwh].[fk_hechos_autobuses] (Clave externa)
+       [dwh].[fk_hechos_conductores] (Clave externa)
+
+** Acciones de compatibilidad

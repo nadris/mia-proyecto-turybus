@@ -8,3 +8,9 @@ C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusDW\obj\D
 C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusDW\obj\Debug\turybusDW.pdb
 C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusDW\bin\Debug\turybusDW.dll
 C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusDW\bin\Debug\turybusDW.pdb
+D:\Github\mia-proyecto-turybus\turybus\turybusDW\bin\Debug\turybusDW.dacpac
+D:\Github\mia-proyecto-turybus\turybus\turybusDW\bin\Debug\turybusDW.dll
+D:\Github\mia-proyecto-turybus\turybus\turybusDW\bin\Debug\turybusDW.pdb
+D:\Github\mia-proyecto-turybus\turybus\turybusDW\obj\Debug\turybusDW.sqlproj.AssemblyReference.cache
+D:\Github\mia-proyecto-turybus\turybus\turybusDW\obj\Debug\turybusDW.dll
+D:\Github\mia-proyecto-turybus\turybus\turybusDW\obj\Debug\turybusDW.pdb
