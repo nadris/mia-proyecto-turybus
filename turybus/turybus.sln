@@ -7,24 +7,39 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "turybusOLTP", "turybusOLTP\
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "turybusDW", "turybusDW\turybusDW.sqlproj", "{DA54CA6F-205E-4406-905F-2EFBB78839F2}"
 EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "turybusETL", "turybusETL\turybusETL.dtproj", "{8951FC9F-4EA6-939D-750A-7A6BD48CA0AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Development|Any CPU.ActiveCfg = Release|Any CPU
+		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Development|Any CPU.Build.0 = Release|Any CPU
+		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Development|Any CPU.Deploy.0 = Release|Any CPU
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F777ADE-CA52-4350-9D9B-A00D75ADC747}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Development|Any CPU.ActiveCfg = Release|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Development|Any CPU.Build.0 = Release|Any CPU
+		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Development|Any CPU.Deploy.0 = Release|Any CPU
 		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DA54CA6F-205E-4406-905F-2EFBB78839F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8951FC9F-4EA6-939D-750A-7A6BD48CA0AD}.Debug|Any CPU.ActiveCfg = Development
+		{8951FC9F-4EA6-939D-750A-7A6BD48CA0AD}.Debug|Any CPU.Build.0 = Development
+		{8951FC9F-4EA6-939D-750A-7A6BD48CA0AD}.Development|Any CPU.ActiveCfg = Development
+		{8951FC9F-4EA6-939D-750A-7A6BD48CA0AD}.Development|Any CPU.Build.0 = Development
+		{8951FC9F-4EA6-939D-750A-7A6BD48CA0AD}.Release|Any CPU.ActiveCfg = Development
+		{8951FC9F-4EA6-939D-750A-7A6BD48CA0AD}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

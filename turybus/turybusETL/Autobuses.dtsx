@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/8/2025 7:05:49 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="MONTELLANOS"
+  DTS:CreatorName="MONTELLANOS\jorge"
+  DTS:DTSID="{06A41478-02DD-4B59-AC15-9ADF3FCFDC86}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="22538"
+  DTS:ObjectName="Autobuses"
+  DTS:PackageType="5"
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{F62A7E3B-188E-42C1-85AD-DE4B03DAAE22}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[source.turybus_database]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F912C524-36E8-4DBE-8451-8127FE0B1764}"
+      DTS:ObjectName="source.turybus_database">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Autobuses-{F912C524-36E8-4DBE-8451-8127FE0B1764}localhost.turybus_database;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[target.turybus_database]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{E4100BED-BECE-49D0-9883-A38688FC5974}"
+      DTS:ObjectName="target.turybus_database">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=turybus_database;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Autobuses-{E4100BED-BECE-49D0-9883-A38688FC5974}localhost.turybus_database 1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
