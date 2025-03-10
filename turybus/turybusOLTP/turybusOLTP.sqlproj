@@ -71,6 +71,12 @@
     <Build Include="Schema\Tables\autobuses_conductores.sql" />
     <Build Include="Schema\Tables\revisiones_reparaciones.sql" />
     <Build Include="Schema\Tables\estadisticas_uso.sql" />
+    <Build Include="Schema\Programmability\GetDatabaseRowVersion.sql" />
+    <Build Include="Schema\Programmability\GetPasajerosChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\GetRutasServiciosChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\GetAutobusesChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\GetConductoresChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\GetHechosViajesChangesByRowVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\billetes.data.sql" />

@@ -6,5 +6,6 @@ create table transporte.lugares_recorrido (
     hora_llegada TIME NOT NULL,
     actividad NVARCHAR(255),
     tiempo_parada INT,
+    rowversion  timestamp         NOT NULL,
     constraint fk_lugares_recorrido_rutas_servicios FOREIGN KEY (id_ruta_servicio) REFERENCES transporte.rutas_servicios(id_ruta_servicio) ON DELETE CASCADE ON UPDATE CASCADE
 );

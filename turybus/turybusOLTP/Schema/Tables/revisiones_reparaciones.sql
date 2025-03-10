@@ -7,5 +7,6 @@ create table transporte.revisiones_reparaciones (
     codigo_reparacion NVARCHAR(50),
     tiempo_empleado INT,
     comentario NVARCHAR(MAX),
+    rowversion  timestamp         NOT NULL,
     constraint fk_revisiones_reparaciones_autobuses FOREIGN KEY (matricula) REFERENCES transporte.autobuses_conductores(matricula) ON DELETE CASCADE ON UPDATE CASCADE
 );

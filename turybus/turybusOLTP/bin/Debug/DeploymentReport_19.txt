@@ -1,0 +1,21 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Modificar
+       [seguridad].[pasajeros] (Tabla)
+       [transporte].[autobuses_conductores] (Tabla)
+       [transporte].[billetes] (Tabla)
+       [transporte].[estadisticas_uso] (Tabla)
+       [transporte].[lugares_recorrido] (Tabla)
+       [transporte].[revisiones_reparaciones] (Tabla)
+       [transporte].[rutas_servicios] (Tabla)
+
+** Acciones de compatibilidad

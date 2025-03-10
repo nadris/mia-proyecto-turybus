@@ -65,10 +65,12 @@
   <ItemGroup>
     <Build Include="Schema\Security\Schema\dwh.sql" />
     <Build Include="Schema\Tables\dim_pasajeros.sql" />
-    <Build Include="Schema\Tables\dim_rutas.sql" />
-    <Build Include="Schema\Tables\dim_tiempo.sql" />
+    <Build Include="Schema\Tables\dim_rutas_servicios.sql" />
     <Build Include="Schema\Tables\dim_autobuses.sql" />
     <Build Include="Schema\Tables\dim_conductores.sql" />
     <Build Include="Schema\Tables\hechos_viajes.sql" />
+    <Build Include="Schema\Programmability\GetLastPackageRowVersion.sql" />
+    <Build Include="Schema\Tables\PackageConfig.sql" />
+    <Build Include="Schema\Programmability\UpdateLastPackageRowVersion.sql" />
   </ItemGroup>
 </Project>

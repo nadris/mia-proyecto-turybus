@@ -1,6 +1,5 @@
 ﻿CREATE TABLE dwh.dim_conductores (
-    id_conductor INT IDENTITY(1,1) PRIMARY KEY,
-    dni NVARCHAR(20) UNIQUE NOT NULL,
-    nombre NVARCHAR(255) NOT NULL,
-    telefono NVARCHAR(20) NOT NULL
+    dni_conductor NVARCHAR(20) UNIQUE NOT NULL PRIMARY KEY,
+    nombre_conductor NVARCHAR(255) NOT NULL,
+    telefono_conductor NVARCHAR(20) NOT NULL
 );
