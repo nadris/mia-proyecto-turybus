@@ -26,33 +26,33 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MONTELLANOS</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALN3OVS0++U+FqOLLoYfiEQAAAAACAAAAAAAQZgAAAAEAACAAAABNvftMQOiRIVd19Shy++H57p2gvBes5YC4oElQLTzHjwAAAAAOgAAAAAIAACAAAACF3sT0ACeLg9slsmfKowkFktbcuNKUoYpgxdLDJxmaipAAAAANd1RPUFxhJxmx8LjLW4nAU29Xzc+/i468PZ4Ot+XaoSWLQoAk4dLb2nmMnN1r8FgMSCch+PF0hRcj/mnGUAhUmTYw3bN/tfnxTV2K3HGPEukEvS+G/aOejoy72c3qp/UZQM0EOI+WkLXaD+IkpjpD8oinF1gPBweAt/XwpnmqlLw6/1PSPxuGUV2uAeZFb9RAAAAA8McoEPozViSXJGMoDKORiU7DNIr2JWqrgRk65H4ua2QgTJCsMJo6J3H6+YLLbbnscQnWUluq5XQ7hbY8uPyZsA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALN3OVS0++U+FqOLLoYfiEQAAAAACAAAAAAAQZgAAAAEAACAAAABuVf+K6ctFxNxlV3Hi3FSr3ZwHy4et55+jzlRU+C6gZwAAAAAOgAAAAAIAACAAAADaLDH8l5cgSGMNzht3RSnX7I9/FUBQ8PxRJUQiagEXZpAAAADCHmFWPMKzl5nTp+HPx0JEOdKtwlWxrbjkk0CS65VUPV18vhtPQi1AQ0AkL0f0iU+kt2Ek4/vy0MQ3fWpdvVeWCVV5KfoDj4bT8NSSIq4Ru74goF/eaNDZHiDpgJpZSl7bp1Kp9JXguNgoQCHCArooYil4ZJiQ1JHKz1LqR6gKusKgwZFy23eWZdRg3fmpBqRAAAAAqOqApeLdGftf4VjqLF5F6YMVerE0UczcV2wPjGMQvu/A/xn/xstGbIN3nwLEd8/w9a/Yzb/iYbDPMnv9YQNKmQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Autobuses_Pasajeros.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="DimPasajeros.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Autobuses_Pasajeros.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="DimPasajeros.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{B3765304-5C59-4817-82FB-5C0FEC0B4007}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Autobuses_Pasajeros</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{4F1A945F-CD69-4E67-8F08-52D104654D75}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">13</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{ABDCB498-109A-452C-AD5A-1A52A5B60ADA}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D4928448-2D0F-4454-A3DF-3BED31FB92D7}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -67,7 +67,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -78,11 +78,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Autobuses-{F912C524-36E8-4DBE-8451-8127FE0B1764}localhost.turybus_database;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{7BCC2488-DB99-42E6-B0F6-D4545C13B5E3}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -97,7 +97,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -112,7 +112,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -127,7 +127,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -142,7 +142,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.Password">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -156,7 +156,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -171,7 +171,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -186,7 +186,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.source.turybus_database.UserName">
+                <SSIS:Parameter SSIS:Name="CM.Source.turybusOLTP.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -200,7 +200,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -215,7 +215,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -226,11 +226,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Autobuses-{E4100BED-BECE-49D0-9883-A38688FC5974}localhost.turybus_database 1;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{90A268E8-5853-4140-AAD1-012B87768E47}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -245,7 +245,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -260,7 +260,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -275,7 +275,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -290,7 +290,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.Password">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -304,7 +304,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -319,7 +319,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -334,7 +334,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.target.turybus_database.UserName">
+                <SSIS:Parameter SSIS:Name="CM.Target.turybusDW.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>

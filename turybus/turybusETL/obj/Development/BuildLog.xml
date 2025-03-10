@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>turybusETL</Name>
-    <LastWriteTime>2025-03-09T22:38:48.0566508Z</LastWriteTime>
+    <LastWriteTime>2025-03-10T01:30:17.418455Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
-      <Name>Autobuses_Pasajeros.dtsx</Name>
-      <LastWriteTime>2025-03-09T22:38:29.8577405Z</LastWriteTime>
+      <Name>DimPasajeros.dtsx</Name>
+      <LastWriteTime>2025-03-10T01:45:54.6165199Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
