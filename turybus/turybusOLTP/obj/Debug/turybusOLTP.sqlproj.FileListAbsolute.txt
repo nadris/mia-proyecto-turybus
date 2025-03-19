@@ -16,3 +16,9 @@ C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\bin
 C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.sqlproj.AssemblyReference.cache
 C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.dll
 C:\Users\Maricel\Desktop\apps\sirve\mia-proyecto-turybus\turybus\turybusOLTP\obj\Debug\turybusOLTP.pdb
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusOLTP\bin\Debug\turybusOLTP.dacpac
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusOLTP\bin\Debug\turybusOLTP.dll
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusOLTP\bin\Debug\turybusOLTP.pdb
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusOLTP\obj\Debug\turybusOLTP.sqlproj.AssemblyReference.cache
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusOLTP\obj\Debug\turybusOLTP.dll
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusOLTP\obj\Debug\turybusOLTP.pdb

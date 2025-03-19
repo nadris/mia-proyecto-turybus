@@ -1,0 +1,27 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a crear con los datos migrados
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dwh] (Esquema)
+       [dwh].[PackageConfig] (Tabla)
+       [dwh].[hechos_viajes] (Tabla)
+       [dwh].[dim_conductores] (Tabla)
+       [dwh].[dim_autobuses] (Tabla)
+       [dwh].[dim_rutas_servicios] (Tabla)
+       [dwh].[dim_pasajeros] (Tabla)
+       [dwh].[fk_hechos_viajes_pasajeros] (Clave externa)
+       [dwh].[fk_hechos_viajes_rutas_servicios] (Clave externa)
+       [dwh].[fk_hechos_viajes_autobuses] (Clave externa)
+       [dwh].[fk_hechos_viajes_conductores] (Clave externa)
+       [dwh].[GetLastPackageRowVersion] (Procedimiento)
+       [dbo].[UpdateLastPackageRowVersion] (Procedimiento)
+
+** Acciones de compatibilidad

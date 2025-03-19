@@ -61,6 +61,7 @@
     <Folder Include="Schema\Security\Schema" />
     <Folder Include="Schema\Tables" />
     <Folder Include="Schema\Programmability" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schema\Security\Schema\dwh.sql" />
@@ -72,5 +73,11 @@
     <Build Include="Schema\Programmability\GetLastPackageRowVersion.sql" />
     <Build Include="Schema\Tables\PackageConfig.sql" />
     <Build Include="Schema\Programmability\UpdateLastPackageRowVersion.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\PackageConfig.data.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>

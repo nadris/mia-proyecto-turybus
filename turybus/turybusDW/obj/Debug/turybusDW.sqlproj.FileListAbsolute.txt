@@ -14,3 +14,9 @@ D:\Github\mia-proyecto-turybus\turybus\turybusDW\bin\Debug\turybusDW.pdb
 D:\Github\mia-proyecto-turybus\turybus\turybusDW\obj\Debug\turybusDW.sqlproj.AssemblyReference.cache
 D:\Github\mia-proyecto-turybus\turybus\turybusDW\obj\Debug\turybusDW.dll
 D:\Github\mia-proyecto-turybus\turybus\turybusDW\obj\Debug\turybusDW.pdb
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusDW\bin\Debug\turybusDW.dacpac
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusDW\bin\Debug\turybusDW.dll
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusDW\bin\Debug\turybusDW.pdb
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusDW\obj\Debug\turybusDW.sqlproj.AssemblyReference.cache
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusDW\obj\Debug\turybusDW.dll
+D:\Github\turybus-final-este-si-imprimir\turybus\turybusDW\obj\Debug\turybusDW.pdb

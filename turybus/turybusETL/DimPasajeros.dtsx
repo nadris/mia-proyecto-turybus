@@ -5,46 +5,46 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="MONTELLANOS"
   DTS:CreatorName="MONTELLANOS\jorge"
-  DTS:DTSID="{4F1A945F-CD69-4E67-8F08-52D104654D75}"
+  DTS:DTSID="{28244100-E395-454B-869A-A01DEAA342E5}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.0"
   DTS:LocaleID="22538"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="DimPasajeros"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{129F7EF1-DD3F-45B6-BD0E-AFCCF2A5E620}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{6C8ACE52-1632-4CFA-8D01-B81091AFD3FE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Source.turybusOLTP]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{7BCC2488-DB99-42E6-B0F6-D4545C13B5E3}"
+      DTS:DTSID="{B74D9A92-A3E3-4FD6-89A9-70732BD97988}"
       DTS:ObjectName="Source.turybusOLTP">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{7BCC2488-DB99-42E6-B0F6-D4545C13B5E3}localhost.turybusOLTP;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{B74D9A92-A3E3-4FD6-89A9-70732BD97988}localhost.turybusOLTP;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Target.turybusDW]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{90A268E8-5853-4140-AAD1-012B87768E47}"
+      DTS:DTSID="{389C33CB-58D2-42A9-9182-B5E76F57A46D}"
       DTS:ObjectName="Target.turybusDW">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{90A268E8-5853-4140-AAD1-012B87768E47}localhost.turybusDW;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{389C33CB-58D2-42A9-9182-B5E76F57A46D}localhost.turybusDW;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{6D622BDF-CC17-49A7-9928-8D9709E30966}"
+      DTS:DTSID="{A576B243-EFE5-4EB2-8583-84AAE392933B}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="dbst">
@@ -53,7 +53,7 @@
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{B0E8B380-8ED8-4AE8-B2C0-7FFC8D230D78}"
+      DTS:DTSID="{BE8B7872-36A7-4D2F-876E-F9E12128B4E2}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="lastRowVersion">
@@ -66,7 +66,7 @@
       DTS:refId="Package\Get Database RowVersion"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
-      DTS:DTSID="{B104FAE9-209E-4356-95E8-1529EC457E4A}"
+      DTS:DTSID="{1DE5652B-7B98-46B9-B237-B08B081775D1}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get Database RowVersion"
@@ -75,11 +75,11 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{7BCC2488-DB99-42E6-B0F6-D4545C13B5E3}"
+          SQLTask:Connection="{B74D9A92-A3E3-4FD6-89A9-70732BD97988}"
           SQLTask:SqlStatementSource="EXECUTE [dbo].[GetDatabaseRowVersion] "
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
-            SQLTask:ResultName="DBST"
+            SQLTask:ResultName="DBTS"
             SQLTask:DtsVariableName="User::dbst" />
         </SQLTask:SqlTaskData>
       </DTS:ObjectData>
@@ -88,7 +88,7 @@
       DTS:refId="Package\Get LastRowVersion"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
-      DTS:DTSID="{0149DA2A-C489-4A8E-AF6E-F4C8083F3765}"
+      DTS:DTSID="{E32CB5C3-7FB1-42CE-84A1-66CCA9617764}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Get LastRowVersion"
@@ -97,7 +97,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{90A268E8-5853-4140-AAD1-012B87768E47}"
+          SQLTask:Connection="{389C33CB-58D2-42A9-9182-B5E76F57A46D}"
           SQLTask:SqlStatementSource="EXECUTE [dwh].[GetLastPackageRowVersion] @tableName = 'dim_pasajeros'"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
@@ -110,7 +110,7 @@
       DTS:refId="Package\Load Pasajeros"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{A3D8AEF5-D979-44B0-A3EF-C87E61AE050C}"
+      DTS:DTSID="{9533DA36-9F6A-4B4E-8857-81252C82F2F8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Pasajeros"
@@ -166,7 +166,7 @@
                 <property
                   dataType="System.String"
                   description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping">"@startRow:Input",{B0E8B380-8ED8-4AE8-B2C0-7FFC8D230D78};"@endRow:Input",{6D622BDF-CC17-49A7-9928-8D9709E30966};</property>
+                  name="ParameterMapping">"@startRow:Input",{BE8B7872-36A7-4D2F-876E-F9E12128B4E2};"@endRow:Input",{A576B243-EFE5-4EB2-8583-84AAE392933B};</property>
               </properties>
               <connections>
                 <connection
@@ -589,7 +589,7 @@ where [refTable].[dni] = ?</property>
       DTS:refId="Package\Update Config"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
-      DTS:DTSID="{7A5F73B7-EA3B-463D-AF37-66E88C3137E2}"
+      DTS:DTSID="{226FA856-DD7E-41AF-AA62-64298BE61C5C}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Update Config"
@@ -598,7 +598,7 @@ where [refTable].[dni] = ?</property>
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{90A268E8-5853-4140-AAD1-012B87768E47}"
+          SQLTask:Connection="{389C33CB-58D2-42A9-9182-B5E76F57A46D}"
           SQLTask:SqlStatementSource="EXECUTE  [dbo].[UpdateLastPackageRowVersion] @tableName = 'dim_pasajeros', @lastRowVersion = ?" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ParameterBinding
             SQLTask:ParameterName="0"
@@ -614,7 +614,7 @@ where [refTable].[dni] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restricción]"
       DTS:CreationName=""
-      DTS:DTSID="{D0DAE448-07AB-45A4-A158-26C8B4F18815}"
+      DTS:DTSID="{92C9EB41-07FD-41AA-8FF6-C1E8A4C6E28D}"
       DTS:From="Package\Get Database RowVersion"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción"
@@ -622,7 +622,7 @@ where [refTable].[dni] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restricción 1]"
       DTS:CreationName=""
-      DTS:DTSID="{B547C9AB-5F32-450A-8838-4326A9DDA284}"
+      DTS:DTSID="{BD4DB385-CB1D-4CAE-BD12-946B84D56B10}"
       DTS:From="Package\Get LastRowVersion"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción 1"
@@ -630,7 +630,7 @@ where [refTable].[dni] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Restricción 2]"
       DTS:CreationName=""
-      DTS:DTSID="{5CE34C1C-734C-466F-BFBA-C45AF0C73CBE}"
+      DTS:DTSID="{1050447E-FE43-4160-8607-FCEDE68867C2}"
       DTS:From="Package\Load Pasajeros"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción 2"
@@ -656,6 +656,14 @@ where [refTable].[dni] = ?</property>
           Size="180,42"
           Id="Package\Get LastRowVersion"
           TopLeft="404,179" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Load Pasajeros"
+          TopLeft="421,312" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Update Config"
+          TopLeft="439,468" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="495.25,123">
@@ -678,10 +686,6 @@ where [refTable].[dni] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Load Pasajeros"
-          TopLeft="421,312" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 1]"
           TopLeft="496.25,221">
@@ -704,10 +708,6 @@ where [refTable].[dni] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="149,42"
-          Id="Package\Update Config"
-          TopLeft="439,468" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 2]"
           TopLeft="498.5,354">
@@ -824,6 +824,19 @@ where [refTable].[dni] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+    design-time-name="Package\Load Pasajeros\Load Pasajeros">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Load Pasajeros\Get Pasajeros">
     <Properties>
       <Property>
@@ -837,7 +850,7 @@ where [refTable].[dni] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -847,23 +860,10 @@ where [refTable].[dni] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Load Pasajeros\Load Pasajeros">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
