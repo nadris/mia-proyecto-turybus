@@ -2,33 +2,33 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>turybusETL</Name>
-    <LastWriteTime>2025-03-19T03:39:57.3579367Z</LastWriteTime>
+    <LastWriteTime>2025-03-19T05:49:07.8762013Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>DimAutobuses.dtsx</Name>
-      <LastWriteTime>2025-03-19T03:39:57.346788Z</LastWriteTime>
+      <LastWriteTime>2025-03-19T06:13:06.9315081Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimConductores.dtsx</Name>
-      <LastWriteTime>2025-03-19T03:39:57.3395113Z</LastWriteTime>
+      <LastWriteTime>2025-03-19T06:00:20.4678052Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimPasajeros.dtsx</Name>
-      <LastWriteTime>2025-03-19T03:39:57.3320046Z</LastWriteTime>
+      <LastWriteTime>2025-03-19T06:21:51.7068475Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DimRutasServicios.dtsx</Name>
-      <LastWriteTime>2025-03-19T03:39:57.3247227Z</LastWriteTime>
+      <LastWriteTime>2025-03-19T06:06:52.5689785Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>HechosViajes.dtsx</Name>
-      <LastWriteTime>2025-03-19T03:39:57.3093984Z</LastWriteTime>
+      <LastWriteTime>2025-03-19T06:23:35.4327757Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

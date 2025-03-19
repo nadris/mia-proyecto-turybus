@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MONTELLANOS</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALN3OVS0++U+FqOLLoYfiEQAAAAACAAAAAAAQZgAAAAEAACAAAABIsOQ3RMvUgUlsvNXBEHRA9kMroN+T8EmviCDgmHL+6gAAAAAOgAAAAAIAACAAAABQaw6kcRx+Sdhuz9ScnR4wS0aTeJAT9jJssUqyu8bAl5AAAADnu0JkXs8nYyDjuslQcmszy8i+SRb0GpJJdc/ieHaWq+zgRsWcs3+irzdj5yd06txAC5S4nZDAVMprHOz2KtpqzIRqUHpOu0w/UtSvVsD+T1DmbOW772OJ4hFL8o1v0LWSWbjm4bbqxkIA81OOeK6U+cg+XBz9vGTxHx4Ga6Sq3D8NkKhFkEiE9fN0tmLQOYlAAAAAUIufumrVHfiJ+aMn1pxYr2LRuZ3pDedcQHbGEMR4riwhCFwBBSFGurO6lkBP12NXYtVF+lGyZXMZRR/M9FGWpw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALN3OVS0++U+FqOLLoYfiEQAAAAACAAAAAAAQZgAAAAEAACAAAAABUqqNQd13AgacjxGK8wdzDK5bXss4v35LpPQu/Xe4BwAAAAAOgAAAAAIAACAAAADG5uN6q0kHCwa52ZCaEF8S6RtY1NgMDqHC02yUHYqpNZAAAAB61EDxJRETvB02bLADt08W5lTJfRJyDXsPPRJcw2vPv6AfxxbZt53ZkX/mjOqWX/insZVHBdX+6Q+8qYDI/BjPitJYmIeCXbSXE6jduTbfIrzoE7uikzKy+/2DHNMtRgMzua516Xx+GZwxDBmpeynDZs0zmVn2RgT4PtDG1xDkRrm/TmiGuUdl728RafP+ZqBAAAAAelpI6d6CcqEaVoylDtMJnuaebRU6+/8CUuyRX6wn6mKJn29ZTkQzdOBB3910LbxQq5gP76YhK2g3ZaP4WHTKQQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,14 +42,14 @@
           <SSIS:PackageInfo>
             <SSIS:PackageMetaData SSIS:Name="DimAutobuses.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{2997AA08-1517-44C8-82CD-462056781577}</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{C8BE9533-1D2B-4F40-823F-10D3DD014F98}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">DimAutobuses</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">23</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">52</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{4A547E14-6429-4CA8-9BDF-2F8E95791A0F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{ECDACD8C-7B57-4DA2-8A12-BE99CFA5AACD}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -82,7 +82,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{16F1AF30-B0C1-4A55-B8EA-372195832F33}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{18A7E55E-EA9C-4D7B-A5F3-38AF638E52D3}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -230,7 +230,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{00157106-07BD-4744-9194-9C06D8D6B2FA}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{88AB531B-C789-4E93-8315-3AFF2F2F2780}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -356,14 +356,14 @@
             </SSIS:PackageMetaData>
             <SSIS:PackageMetaData SSIS:Name="DimConductores.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{679958D8-0897-4311-B4AB-A314E9E288AE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{F182F85B-903E-47F8-A249-7E5F3F95E746}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">DimConductores</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">23</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">33</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{54C5AD61-1870-4D92-815D-8C6D5FE01523}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{99546BA6-A16A-4825-B5A4-EB64D5CFBEF7}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -396,7 +396,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{D7904553-4F93-42CE-9958-7BD4FC46EF81}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{6909B7E9-76E0-415C-909D-D824E205DA24}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -544,7 +544,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{9189AB88-01B7-4BEE-9867-5EE4CEB6B4C3}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{28FAFFBB-46AA-44F1-9972-9338E911551C}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -670,14 +670,14 @@
             </SSIS:PackageMetaData>
             <SSIS:PackageMetaData SSIS:Name="DimPasajeros.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{28244100-E395-454B-869A-A01DEAA342E5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{16DE08A5-B8F5-40F3-963A-201C6FA0ACC9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">DimPasajeros</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">18</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">34</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{6C8ACE52-1632-4CFA-8D01-B81091AFD3FE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{0EADC2B7-585E-4ED7-A1EE-0BAD7B7E2451}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -710,7 +710,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{B74D9A92-A3E3-4FD6-89A9-70732BD97988}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{6C2317A9-2C9E-4834-8949-7C47DB6AB823}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -858,7 +858,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{389C33CB-58D2-42A9-9182-B5E76F57A46D}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{219DB9AB-8B7E-4FA1-BC32-DB8DFE4987B5}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -984,14 +984,14 @@
             </SSIS:PackageMetaData>
             <SSIS:PackageMetaData SSIS:Name="DimRutasServicios.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{6121706B-A44E-43B0-87E3-39CB9A36A7F5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{22524EBA-1019-4A54-8B3A-381C0E1BB352}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">DimRutasServicios</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">24</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">28</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{5063E64D-87C4-4D81-8E33-4292C4507298}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{8CCC4098-15B6-4BEF-B96D-9CF19AA86683}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1024,7 +1024,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{13B8C1C0-B4F5-4855-9CC2-3AB36275628B}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{C650B607-0EE8-4084-AFBA-D8C02F250ABE}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1172,7 +1172,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{CB4C556C-BE84-4CF5-A764-730AD77EEF9D}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{581F58BA-838A-42E6-B26C-C744352E4DE7}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1298,14 +1298,14 @@
             </SSIS:PackageMetaData>
             <SSIS:PackageMetaData SSIS:Name="HechosViajes.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{68E0A0A0-C55A-4DB4-A174-E56FE123B363}</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{1F22A419-EF3C-4ED9-8C5E-001E3F003F44}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">HechosViajes</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">23</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">31</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{CCA7575B-BE3A-4EBD-8939-58B2B1CDDB20}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{29C1FC75-805D-4CB4-BDA1-536D3DC3881C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1338,7 +1338,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{49C96D30-46DA-4E57-8FDF-91A3F5C7CB61}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusOLTP;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{6F3095F0-A583-436E-B717-4504601482B5}localhost.turybusOLTP;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1486,7 +1486,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{F639A63D-4CCA-426F-8246-9F604AF3D50B}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;Initial Catalog=turybusDW;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{3CFF9FA4-81C6-44EF-A789-5ED26E97F953}localhost.turybusDW;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
