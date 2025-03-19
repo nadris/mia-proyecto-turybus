@@ -85,6 +85,12 @@
             }
           }
         ],
+        "measures": [
+          {
+            "name": "TotalPlazas",
+            "expression": " SUM(dim_autobuses[num_plazas])"
+          }
+        ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
@@ -331,6 +337,12 @@
             }
           }
         ],
+        "measures": [
+          {
+            "name": "TOTAL VIAJES",
+            "expression": " COUNT(hechos_viajes[HechosViajesSK])"
+          }
+        ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
@@ -339,54 +351,6 @@
           {
             "name": "_TM_ExtProp_DbTableName",
             "value": "hechos_viajes"
-          },
-          {
-            "name": "_TM_ExtProp_DbSchemaName",
-            "value": "dwh"
-          }
-        ]
-      },
-      {
-        "name": "PackageConfig",
-        "columns": [
-          {
-            "name": "PackageID",
-            "dataType": "int64",
-            "sourceColumn": "PackageID",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "TableName",
-            "dataType": "string",
-            "sourceColumn": "TableName",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "LastRowVersion",
-            "dataType": "int64",
-            "sourceColumn": "LastRowVersion",
-            "sourceProviderType": "BigInt"
-          }
-        ],
-        "partitions": [
-          {
-            "name": "PackageConfig",
-            "dataView": "full",
-            "source": {
-              "type": "query",
-              "query": " \t\t\t\tSELECT [dwh].[PackageConfig].*   FROM [dwh].[PackageConfig] ",
-              "dataSource": "SqlServer MONTELLANOS turybusDW 2"
-            }
-          }
-        ],
-        "annotations": [
-          {
-            "name": "_TM_ExtProp_QueryDefinition",
-            "value": " \t\t\t\tSELECT [dwh].[PackageConfig].*   FROM [dwh].[PackageConfig] "
-          },
-          {
-            "name": "_TM_ExtProp_DbTableName",
-            "value": "PackageConfig"
           },
           {
             "name": "_TM_ExtProp_DbSchemaName",
