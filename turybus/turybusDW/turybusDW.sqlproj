@@ -73,6 +73,7 @@
     <Build Include="Schema\Programmability\GetLastPackageRowVersion.sql" />
     <Build Include="Schema\Tables\PackageConfig.sql" />
     <Build Include="Schema\Programmability\UpdateLastPackageRowVersion.sql" />
+    <Build Include="Schema\Programmability\GetPasajerosWithMoreTrips.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\PackageConfig.data.sql" />

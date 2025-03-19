@@ -11,8 +11,8 @@
   DTS:LocaleID="22538"
   DTS:ObjectName="DimAutobuses"
   DTS:PackageType="5"
-  DTS:VersionBuild="52"
-  DTS:VersionGUID="{ECDACD8C-7B57-4DA2-8A12-BE99CFA5AACD}">
+  DTS:VersionBuild="54"
+  DTS:VersionGUID="{EFB35136-646E-4423-A599-9723F999E7B4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

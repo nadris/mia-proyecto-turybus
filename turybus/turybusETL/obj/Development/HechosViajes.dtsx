@@ -11,8 +11,8 @@
   DTS:LocaleID="22538"
   DTS:ObjectName="HechosViajes"
   DTS:PackageType="5"
-  DTS:VersionBuild="31"
-  DTS:VersionGUID="{29C1FC75-805D-4CB4-BDA1-536D3DC3881C}">
+  DTS:VersionBuild="32"
+  DTS:VersionGUID="{8F65BCAA-6F40-4E43-B127-BC43072820CB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

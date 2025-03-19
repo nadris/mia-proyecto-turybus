@@ -1,0 +1,436 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1200,
+  "model": {
+    "culture": "en-US",
+    "dataSources": [
+      {
+        "name": "SqlServer MONTELLANOS turybusDWfinal",
+        "connectionString": "Provider=MSOLEDBSQL;Data Source=MONTELLANOS;Persist Security Info=false;Integrated Security=SSPI;Initial Catalog=turybusDW",
+        "impersonationMode": "impersonateCurrentUser",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "SqlServer"
+          }
+        ]
+      },
+      {
+        "name": "SqlServer MONTELLANOS turybusDW",
+        "connectionString": "Provider=MSOLEDBSQL;Data Source=MONTELLANOS;Persist Security Info=false;Integrated Security=SSPI;Initial Catalog=turybusDW",
+        "impersonationMode": "impersonateCurrentUser",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "SqlServer"
+          }
+        ]
+      },
+      {
+        "name": "SqlServer MONTELLANOS turybusDW 2",
+        "connectionString": "Provider=SQLOLEDB;Data Source=MONTELLANOS;Integrated Security=SSPI;Persist Security Info=false;Initial Catalog=turybusDW",
+        "impersonationMode": "impersonateAccount",
+        "account": "MONTELLANOS\\jorge",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "SqlServer"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "dim_autobuses",
+        "columns": [
+          {
+            "name": "AutobusesSK",
+            "dataType": "int64",
+            "sourceColumn": "AutobusesSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "matricula",
+            "dataType": "string",
+            "sourceColumn": "matricula",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "modelo",
+            "dataType": "string",
+            "sourceColumn": "modelo",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "fabricante",
+            "dataType": "string",
+            "sourceColumn": "fabricante",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "num_plazas",
+            "dataType": "int64",
+            "sourceColumn": "num_plazas",
+            "sourceProviderType": "Integer"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_autobuses",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dwh].[dim_autobuses].*   FROM [dwh].[dim_autobuses] ",
+              "dataSource": "SqlServer MONTELLANOS turybusDW 2"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dwh].[dim_autobuses].*   FROM [dwh].[dim_autobuses] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "dim_autobuses"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dwh"
+          }
+        ]
+      },
+      {
+        "name": "dim_conductores",
+        "columns": [
+          {
+            "name": "ConductoresSK",
+            "dataType": "int64",
+            "sourceColumn": "ConductoresSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "dni_conductor",
+            "dataType": "string",
+            "sourceColumn": "dni_conductor",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "nombre_conductor",
+            "dataType": "string",
+            "sourceColumn": "nombre_conductor",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "telefono_conductor",
+            "dataType": "string",
+            "sourceColumn": "telefono_conductor",
+            "sourceProviderType": "WChar"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_conductores",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dwh].[dim_conductores].*   FROM [dwh].[dim_conductores] ",
+              "dataSource": "SqlServer MONTELLANOS turybusDW 2"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dwh].[dim_conductores].*   FROM [dwh].[dim_conductores] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "dim_conductores"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dwh"
+          }
+        ]
+      },
+      {
+        "name": "dim_pasajeros",
+        "columns": [
+          {
+            "name": "PasajerosSK",
+            "dataType": "int64",
+            "sourceColumn": "PasajerosSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "dni",
+            "dataType": "string",
+            "sourceColumn": "dni",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "nombre",
+            "dataType": "string",
+            "sourceColumn": "nombre",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "telefono",
+            "dataType": "string",
+            "sourceColumn": "telefono",
+            "sourceProviderType": "WChar"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_pasajeros",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dwh].[dim_pasajeros].*   FROM [dwh].[dim_pasajeros] ",
+              "dataSource": "SqlServer MONTELLANOS turybusDW 2"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dwh].[dim_pasajeros].*   FROM [dwh].[dim_pasajeros] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "dim_pasajeros"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dwh"
+          }
+        ]
+      },
+      {
+        "name": "dim_rutas_servicios",
+        "columns": [
+          {
+            "name": "RutasServiciosSK",
+            "dataType": "int64",
+            "sourceColumn": "RutasServiciosSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "id_ruta_servicio",
+            "dataType": "int64",
+            "sourceColumn": "id_ruta_servicio",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "nombre",
+            "dataType": "string",
+            "sourceColumn": "nombre",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "importe",
+            "dataType": "double",
+            "sourceColumn": "importe",
+            "sourceProviderType": "Numeric"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_rutas_servicios",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dwh].[dim_rutas_servicios].*   FROM [dwh].[dim_rutas_servicios] ",
+              "dataSource": "SqlServer MONTELLANOS turybusDW 2"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dwh].[dim_rutas_servicios].*   FROM [dwh].[dim_rutas_servicios] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "dim_rutas_servicios"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dwh"
+          }
+        ]
+      },
+      {
+        "name": "hechos_viajes",
+        "columns": [
+          {
+            "name": "HechosViajesSK",
+            "dataType": "int64",
+            "sourceColumn": "HechosViajesSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "AutobusesSK",
+            "dataType": "int64",
+            "sourceColumn": "AutobusesSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "ConductoresSK",
+            "dataType": "int64",
+            "sourceColumn": "ConductoresSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "PasajerosSK",
+            "dataType": "int64",
+            "sourceColumn": "PasajerosSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "RutasServiciosSK",
+            "dataType": "int64",
+            "sourceColumn": "RutasServiciosSK",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "dni_pasajero",
+            "dataType": "string",
+            "sourceColumn": "dni_pasajero",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "id_ruta_servicio",
+            "dataType": "int64",
+            "sourceColumn": "id_ruta_servicio",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "matricula",
+            "dataType": "string",
+            "sourceColumn": "matricula",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "dni_conductor",
+            "dataType": "string",
+            "sourceColumn": "dni_conductor",
+            "sourceProviderType": "WChar"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "hechos_viajes",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dwh].[hechos_viajes].*   FROM [dwh].[hechos_viajes] ",
+              "dataSource": "SqlServer MONTELLANOS turybusDW 2"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dwh].[hechos_viajes].*   FROM [dwh].[hechos_viajes] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "hechos_viajes"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dwh"
+          }
+        ]
+      },
+      {
+        "name": "PackageConfig",
+        "columns": [
+          {
+            "name": "PackageID",
+            "dataType": "int64",
+            "sourceColumn": "PackageID",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "TableName",
+            "dataType": "string",
+            "sourceColumn": "TableName",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "LastRowVersion",
+            "dataType": "int64",
+            "sourceColumn": "LastRowVersion",
+            "sourceProviderType": "BigInt"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "PackageConfig",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dwh].[PackageConfig].*   FROM [dwh].[PackageConfig] ",
+              "dataSource": "SqlServer MONTELLANOS turybusDW 2"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dwh].[PackageConfig].*   FROM [dwh].[PackageConfig] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "PackageConfig"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dwh"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "ab4bf1e2-3d4f-47c7-b065-2d6c9a3bc649",
+        "fromTable": "hechos_viajes",
+        "fromColumn": "AutobusesSK",
+        "toTable": "dim_autobuses",
+        "toColumn": "AutobusesSK"
+      },
+      {
+        "name": "008fc10e-01be-4c7b-8185-d7d7cf11faed",
+        "fromTable": "hechos_viajes",
+        "fromColumn": "ConductoresSK",
+        "toTable": "dim_conductores",
+        "toColumn": "ConductoresSK"
+      },
+      {
+        "name": "bdb160a7-a6c1-4860-b0a0-e4f27d4bbd16",
+        "fromTable": "hechos_viajes",
+        "fromColumn": "PasajerosSK",
+        "toTable": "dim_pasajeros",
+        "toColumn": "PasajerosSK"
+      },
+      {
+        "name": "37af53bc-675d-4d6d-a3a2-dc0047d07aac",
+        "fromTable": "hechos_viajes",
+        "fromColumn": "RutasServiciosSK",
+        "toTable": "dim_rutas_servicios",
+        "toColumn": "RutasServiciosSK"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "400"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}
